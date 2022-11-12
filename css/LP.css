@@ -1,0 +1,107 @@
+* {
+  font-family: 'Montserrat', sans-serif;
+  transition-duration: 0.2s;
+  transition-timing-function: ease-in;
+}
+h1{
+  font-size: 3rem;
+}
+p{
+  color: gray;
+}
+hr{
+  height: 2px;
+  width: 15%;
+  display: inline-block;
+}
+/* navbar */
+.navbar{
+  background-color: #151515;
+  opacity: 0.9;
+}
+/* header */
+.header,.pricing{
+  background-image: url('../img/bg.jpg');
+  background-attachment: fixed;
+  background-position: center, center;
+  background-size: cover;
+  width: 100%;
+  min-height: 640px;
+
+}
+.header-content{
+  position: relative;
+  top: 15rem;
+}
+.header-icon,.main-icon{
+  position: relative;
+  bottom: 4px;
+}
+/* main */
+.main{
+  background-color: #EAEAEA;
+  text-align: center;
+}
+.bg-gold{
+  background-color: #C5A47E;
+}
+.text-gold{
+  color: #C5A47E;
+}
+.main-card{
+  box-shadow: 2px 2px 3px -1px #999999;
+}
+
+
+.main-card:hover .main-p{
+font-size:16.5px;
+color: #C5A47E;
+
+}
+
+.main img:hover{
+  opacity: 0.9;
+}
+.btn-animation{
+width: 60%;
+}
+.btn-animation:hover{
+  padding-right: 10%;
+  transition: padding 0.4s;
+}
+/* feature */
+.feature-body{
+margin-top: 12%;
+}
+.feature-card:hover .feature-body {
+margin-top: 15%;
+}
+.feature-body p{
+color: white;
+}
+.feature-lost{
+opacity: 0;
+}
+.feature-card:hover .feature-lost {
+opacity: 1;
+}
+/* pricing */
+.gold-btn:hover{
+  background-color: #a5896a;
+}
+.gold-btn:focus {
+box-shadow: 0 0 0 0.2rem #e0d5c9;
+}
+/* footer */
+.footer a:hover{
+text-decoration: none;
+}
+/* mediaquerys */
+@media (max-width: 420px){
+  .feature-body{
+  margin-top: 4%;
+  }
+  .feature-card:hover .feature-body {
+  margin-top: 2%;
+  }
+}
